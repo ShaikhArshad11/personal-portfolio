@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "private": true,
   "engines": {
-    "node": "16.x"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "npm --prefix kura run dev",
