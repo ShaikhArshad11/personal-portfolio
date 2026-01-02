@@ -1,10 +1,14 @@
 {
   "name": "personal-portfolio",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "dev": "npm --prefix kura run dev",
     "build": "npm --prefix kura run build",
     "start": "npm --prefix kura run start",
+    "postinstall": "npm --prefix kura install",
     "install:app": "npm --prefix kura install"
   },
   "dependencies": {
